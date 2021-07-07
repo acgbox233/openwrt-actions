@@ -1,0 +1,8 @@
+--- feeds.conf.default	2021-07-07 15:06:55.203523800 +0800
++++ feeds.conf.default.new	2021-07-07 15:09:09.058446200 +0800
+@@ -7,3 +7,4 @@
+ #src-git oldpackages http://git.openwrt.org/packages.git
+ #src-link custom /usr/src/openwrt/custom-feed
+ src-git lienol https://github.com/Lienol/openwrt-package.git;main
++src-git passwall https://github.com/xiaorouji/openwrt-passwall;main
+\ No newline at end of file
