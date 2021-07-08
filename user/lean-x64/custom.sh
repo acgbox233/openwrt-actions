@@ -6,3 +6,5 @@ svn co https://github.com/Lienol/openwrt-packages/trunk/net/smartdns            
 
 rm -rf feeds/packages/libs/libcap
 svn co https://github.com/openwrt/openwrt/trunk/package/libs/libcap feeds/packages/libs/libcap
+
+git clone https://github.com/jerrykuku/luci-theme-argon.git -b 18.06                                     package/luci-theme-argon-jerrykuku
